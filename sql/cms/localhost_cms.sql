@@ -139,11 +139,11 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `email`, `password`, `oid`, `status`, `fresh`, `role`, `fullName`, `adressData1`, `adressData2`, `postNumber`, `phone`) VALUES
-(1, 'jonin@testi.fi', '$2y$10$JPSXJQopv8/Nz4fNSYDCwOwX7rrobLEGmwb6YZ6CX0KI27J.Fwvci', 1, 1, 1, 1, 'Joni Hell', 'Mustanlahdenkatu 24', 'Tampere', '33210', '+35845 78704433'),
+(1, 'kayttaja@testi.fi', '$2y$10$MpXpQjb06/QOx.nxNPNy8uvGw4muZxIDXWORVvoH0Kk3XQtBF3VFO', 1, 1, 1, 1, 'Joni', 'Katuosoitteeni', 'Kaupunki', '000000', '+358 123456789'),
 (4, 'aa@aa.fi', '$2y$10$MpXpQjb06/QOx.nxNPNy8uvGw4muZxIDXWORVvoH0Kk3XQtBF3VFO', 1, 1, 1, 2, 'testi3', '', '', '', ''),
 (5, 'aaa@aaa.fi', '$2y$10$wCm.aSWjYI6SsaP87SSNHu8YRHCz3G1/ERiILgdN.9j7rokWadZBe', 1, 1, 1, 3, 'testi4', '', '', '', ''),
 (6, 'testi@testi.fi', '', 1, 1, 1, 4, 'testi5', '', '', '', ''),
-(7, 'tommi@opiferum.fi', '$2y$10$EiSbgSDBJWIADRIR609ZsOP1dwnhO1dK6xE.JQVabxRYa/cJSMAL2', 5, 1, 1, 1, 'Tommi Hellgren', 'Katuosoitteeni', 'Hämeenlinna', '000000', '+358 123456789'),
+(7, 'tommi@opiferum.fi', '$2y$10$EiSbgSDBJWIADRIR609ZsOP1dwnhO1dK6xE.JQVabxRYa/cJSMAL2', 5, 1, 1, 1, 'Tommi', 'Katuosoitteeni', 'Kaupunki', '000000', '+358 123456789'),
 (8, 'testi1@tyo.fi', '$2y$10$JPSXJQopv8/Nz4fNSYDCwOwX7rrobLEGmwb6YZ6CX0KI27J.Fwvci', 1, 1, 1, 1, 'testi1', 'Osoite 1', 'Kaupunki 1', '00001', '+35845 11111111'),
 (9, 'testi2@tyo.fi', '$2y$10$JPSXJQopv8/Nz4fNSYDCwOwX7rrobLEGmwb6YZ6CX0KI27J.Fwvci', 1, 1, 1, 1, 'testi2', 'Osoite 2', 'Kaupunki 2', '00002', '+35845 22222222');
 
